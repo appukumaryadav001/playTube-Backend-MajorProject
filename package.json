@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "starts":"node src/index.js",
+    "starts": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "author": "Appu Yadav",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.0"
   }
 }
