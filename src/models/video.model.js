@@ -1,6 +1,6 @@
 import {Schema , model} from "mongoose";
 import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
-const videoSchema = new (
+const videoSchema = new Schema(
     {
        videoFile:{
         type:String,
